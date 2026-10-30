@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: springBootDataWebDemo
+  datasource:
+    url: jdbc:mysql://localhost:3306/demodataweb?createDatabaseIfNotExist=true
+    username: student
+    password: 1234
+  jpa:
+    generate-ddl: true
+    show-sql: true
